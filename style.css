@@ -47,3 +47,20 @@ body {
   font-size: 1.3rem;
   color: var(--primary-color);
 }
+
+.nav-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-section a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--gray);
+  transform: all 0.1s;
+}
+
+.nav-section a:hover {
+  color: var(--dark-gray);
+}
