@@ -64,3 +64,21 @@ body {
 .nav-section a:hover {
   color: var(--dark-gray);
 }
+
+.contact-button {
+  height: 2rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transform: all 0.1s;
+}
+
+.contact-button:hover {
+  background-color: var(--link-color);
+}
