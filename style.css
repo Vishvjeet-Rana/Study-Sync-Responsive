@@ -49,9 +49,15 @@ body {
 }
 
 .nav-section {
-  display: flex;
-  gap: 1rem;
+  display: none;
+  gap: 1.5rem;
   align-items: center;
+}
+
+@media screen and (min-width: 535px) {
+  .nav-section {
+    display: flex;
+  }
 }
 
 .nav-section a {
@@ -68,10 +74,10 @@ body {
 .contact-button {
   height: 2rem;
   width: 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--accent-color);
+  display: none;
+  padding-top: 0.6rem;
+  padding-left: 2rem;
+  background-color: var(--primary-color);
   color: var(--background-color);
   border-radius: 0.3rem;
   font-weight: 600;
@@ -79,6 +85,12 @@ body {
   transform: all 0.1s;
 }
 
+@media screen and (min-width: 650px) {
+  .contact-button {
+    display: block;
+  }
+}
+
 .contact-button:hover {
-  background-color: var(--link-color);
+  background-color: var(--accent-color);
 }
