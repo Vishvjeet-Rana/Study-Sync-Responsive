@@ -54,7 +54,7 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 535px) {
+@media screen and (min-width: 676px) {
   .nav-section {
     display: flex;
   }
@@ -85,7 +85,7 @@ body {
   transform: all 0.1s;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 676px) {
   .contact-button {
     display: block;
   }
@@ -93,4 +93,23 @@ body {
 
 .contact-button:hover {
   background-color: var(--accent-color);
+}
+
+.hamburger {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: none;
+  background-color: var(--background-color);
+  display: none;
+}
+
+.hamburger i {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 675.9px) {
+  .hamburger {
+    display: block;
+  }
 }
