@@ -309,6 +309,7 @@ body {
 .card-container {
   height: 13rem;
   width: 20rem;
+  margin: 1rem;
   border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
