@@ -291,13 +291,15 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: var(--text-color);
+  animation: leftToRight 1s ease forwards;
 }
 
-.card-section-inner p {
+.card-section-inner .main-card-para {
   font-size: 1rem;
   color: var(--gray);
   text-align: center;
   font-weight: 400;
+  animation: leftToRight 1s ease forwards;
 }
 
 .all-cards-container {
@@ -340,4 +342,52 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--background-color);
+  text-align: center;
+}
+
+.card-2 i {
+  color: #e3735e;
+}
+
+.card-2 {
+  background-color: #e3735e;
+}
+
+.card-3 i {
+  color: #ffb74d;
+}
+
+.card-3 {
+  background-color: #ffb74d;
+}
+
+.card-4 {
+  background-color: #007b80;
+}
+
+.card-4 i {
+  color: #007b80;
+}
+
+.card-5 {
+  background-color: green;
+}
+
+.card-5 i {
+  color: green;
+}
+
+.card-6 {
+  background-color: purple;
+}
+
+.card-6 i {
+  color: purple;
+}
+
+@media screen and (max-width: 676px) {
+  .all-cards-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
