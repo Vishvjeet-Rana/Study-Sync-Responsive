@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+::selection {
+  background-color: #e6d5f7; /* Light violet-orchid mixture */
+  color: #000; /* Text color */
+}
+
 :root {
   --primary-color: #6366f1;
   --accent-color: #3f83f8;
@@ -213,9 +218,4 @@ body {
   .content-title {
     font-size: 3.4rem;
   }
-}
-
-::selection {
-  background-color: #e6d5f7; /* Light violet-orchid mixture */
-  color: #000; /* Text color */
 }
