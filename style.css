@@ -64,7 +64,7 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--gray);
-  transform: all 0.1s;
+  transition: all 0.1s;
 }
 
 .nav-section a:hover {
@@ -82,7 +82,7 @@ body {
   border-radius: 0.3rem;
   font-weight: 600;
   font-size: 0.85rem;
-  transform: all 0.1s;
+  transition: all 0.1s;
 }
 
 @media screen and (min-width: 676px) {
