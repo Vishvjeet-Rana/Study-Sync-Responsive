@@ -191,7 +191,31 @@ body {
 }
 
 .img-container img {
-  height: 30rem;
+  height: 25rem;
   border-radius: 2rem;
-  width: 30rem;
+  width: 25rem;
+}
+
+@media screen and (min-width: 676px) {
+  .main-section {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+
+  .left-content {
+    text-align: left;
+  }
+
+  .button-group {
+    padding-left: 0;
+  }
+
+  .content-title {
+    font-size: 3.4rem;
+  }
+}
+
+::selection {
+  background-color: #e6d5f7; /* Light violet-orchid mixture */
+  color: #000; /* Text color */
 }
