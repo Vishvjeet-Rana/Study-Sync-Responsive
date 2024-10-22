@@ -243,7 +243,6 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   background-color: var(--light-gray);
-  margin-bottom: 5rem;
 }
 
 .company-box {
@@ -268,4 +267,76 @@ body {
     display: flex;
     flex-direction: row;
   }
+}
+
+.main-card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-section-inner {
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.card-section-inner h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.card-section-inner p {
+  font-size: 1rem;
+  color: var(--gray);
+  text-align: center;
+  font-weight: 400;
+}
+
+.all-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.card-container {
+  height: 13rem;
+  width: 20rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.85rem;
+  gap: 1rem;
+  background-color: var(--accent-color);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-container i {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+}
+
+.card-container .card-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--background-color);
+}
+
+.card-container .card-description {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--background-color);
 }
