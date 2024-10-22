@@ -166,15 +166,28 @@ body {
 
 .button-group a {
   text-decoration: none;
-  border: 2px solid black;
-  padding-top: 0.6rem;
-  padding-left: 2rem;
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  border: none;
+  padding: 0.4rem 0.65rem 0.4rem 0.65rem;
+  margin: 0.3rem;
   border-radius: 0.3rem;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   transition: all 0.1s;
+}
+
+.start-button {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  transition: all 0.1s;
+}
+
+.start-button:hover {
+  background-color: var(--link-color);
+}
+
+.tour-button {
+  background-color: var(--text-color);
+  color: var(--background-color);
 }
 
 .img-container img {
