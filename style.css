@@ -274,6 +274,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--light-gray);
+  margin-top: 1rem;
 }
 
 .card-section-inner {
