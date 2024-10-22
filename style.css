@@ -164,6 +164,19 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.button-group a {
+  text-decoration: none;
+  border: 2px solid black;
+  padding-top: 0.6rem;
+  padding-left: 2rem;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.1s;
+}
+
 .img-container img {
   height: 30rem;
   border-radius: 2rem;
