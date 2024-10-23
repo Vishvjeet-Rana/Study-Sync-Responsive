@@ -10,6 +10,10 @@
   color: inherit; /* Text color */
 }
 
+button {
+  cursor: pointer;
+}
+
 :root {
   --primary-color: #6366f1;
   --accent-color: #3f83f8;
@@ -200,6 +204,12 @@ body {
   border-radius: 2rem;
   width: 25rem;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+  transition: 1s all ease;
+}
+
+.img-container img:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 15px gray;
 }
 
 @media screen and (min-width: 676px) {
@@ -251,6 +261,11 @@ body {
   justify-content: center;
   padding: 1.5rem;
   color: var(--dark-gray);
+  transition: 1s all ease;
+}
+
+.company-box :hover {
+  transform: scale(0.95);
 }
 
 .company-box i {
@@ -429,7 +444,7 @@ body {
 .testimonials-boxes .box {
   height: 10rem;
   width: 17rem;
-  border: 3px solid var(--light-gray);
+  border: 1.5px solid cornflowerblue;
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem;
@@ -511,4 +526,97 @@ body {
 .testimonials-heading.visible {
   transform: translateX(0); /* Move into view */
   opacity: 1; /* Fade in */
+}
+
+.main-newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.newsletter-inner-container {
+  max-width: 1000px;
+  height: 35vh;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-gray);
+}
+
+.news-img-container {
+  height: 100%;
+  width: 50%;
+}
+
+.news-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.right-news-part {
+  height: 80%;
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.news-text h2 {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.news-text p {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.news-form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.news-form input {
+  height: 1.6rem;
+  border: 1px solid var(--gray);
+  padding-left: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.news-form button {
+  background-color: var(--link-color);
+  color: var(--background-color);
+  font-size: 0.7rem;
+  height: 1.6rem;
+  border-radius: 0.2rem;
+  border: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.news-hyper-text p {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+}
+
+.news-hyper-text a {
+  text-decoration: underline;
+  font-size: 0.5rem;
+  color: var(--link-color);
+  font-weight: 600;
 }
