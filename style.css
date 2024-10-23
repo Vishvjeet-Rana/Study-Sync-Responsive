@@ -123,6 +123,8 @@ body {
   }
 }
 
+/* HERO SECTION STARTS FROM HERE */
+
 .main-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -231,6 +233,8 @@ body {
   }
 }
 
+/* COMPANY SECTION STARTS FROM HERE */
+
 .company-section {
   display: flex;
   flex-direction: column;
@@ -283,6 +287,8 @@ body {
     flex-direction: row;
   }
 }
+
+/* CARD SECTION STARTS HERE */
 
 .main-card-section {
   display: flex;
@@ -414,6 +420,8 @@ body {
   }
 }
 
+/* TESTIMONIAL SECTION STARTS FROM HERE */
+
 .main-testimonials {
   margin-top: 2rem;
 }
@@ -534,6 +542,8 @@ body {
   transform: translateX(0); /* Move into view */
   opacity: 1; /* Fade in */
 }
+
+/* NEWSLETTER SECTION STARTS FROM HERE */
 
 .main-newsletter-container {
   display: flex;
