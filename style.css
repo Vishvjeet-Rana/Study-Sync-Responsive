@@ -751,3 +751,32 @@ body {
   font-weight: bold;
   color: var(--gray);
 }
+
+@media screen and (max-width: 561px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-top-left {
+    width: 50%;
+  }
+
+  .footer-top-left a i {
+    margin-right: 0.8rem;
+  }
+
+  .footer-top-left .logo-in-footer i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .footer-top-left .logo-in-footer span {
+    font-size: 2rem;
+  }
+
+  .social-logos {
+    margin-left: 25%;
+  }
+}
