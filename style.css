@@ -517,13 +517,20 @@ body {
   transition: transform 0.8s ease-out, opacity 0.8s ease-out; /* Transition properties */
 }
 
+.right-news-part {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
 .left-content.visible,
 .company-section h2.visible,
 .card-section-inner h2.visible,
 .card-section-inner .main-card-para.visible,
 .testimonials-name-profession h5.visible,
 .testimonials-name-profession h6.visible,
-.testimonials-heading.visible {
+.testimonials-heading.visible,
+.right-news-part.visible {
   transform: translateX(0); /* Move into view */
   opacity: 1; /* Fade in */
 }
@@ -619,4 +626,13 @@ body {
   font-size: 0.5rem;
   color: var(--link-color);
   font-weight: 600;
+}
+
+@media screen and (max-width: 531px) {
+  .news-img-container {
+    display: none;
+  }
+  .news-form input {
+    width: 40rem;
+  }
 }

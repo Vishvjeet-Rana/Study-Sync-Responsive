@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Select all elements that you want to animate
   const elementsToAnimate = document.querySelectorAll(
-    ".left-content, .company-section h2, .card-section-inner h2, .card-section-inner .main-card-para, .testimonials-name-profession h5, .testimonials-name-profession h6, .testimonials-heading"
+    ".left-content, .company-section h2, .card-section-inner h2, .card-section-inner .main-card-para, .testimonials-name-profession h5, .testimonials-name-profession h6, .testimonials-heading, .right-news-part"
   );
 
   const observer = new IntersectionObserver((entries) => {
