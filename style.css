@@ -657,7 +657,7 @@ body {
 
 .footer-top {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
 }
 
@@ -707,5 +707,30 @@ body {
 }
 
 .footer-grid-coloumn {
-  gap: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.grid-col-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.footer-grid-coloumn ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-grid-coloumn ul li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.footer-grid-coloumn ul li a {
+  color: var(--gray);
 }
