@@ -551,7 +551,7 @@ body {
   justify-content: center;
   padding: 1rem;
   margin-top: 5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .newsletter-inner-container {
@@ -660,8 +660,8 @@ body {
 .footer-top {
   display: flex;
   gap: 1rem;
-  margin-bottom: 5rem;
   border-bottom: 1px solid var(--gray);
+  border-top: 1px solid var(--gray);
 }
 
 .footer-top-left {
@@ -670,6 +670,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 2rem;
   /* border: 2px solid black; */
 }
 
@@ -706,6 +707,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   /* border: 2px solid red; */
 }
 
@@ -735,5 +737,17 @@ body {
 }
 
 .footer-grid-coloumn ul li a {
+  color: var(--gray);
+}
+
+.footer-lower {
+  text-align: center;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-lower span {
+  font-size: 0.6rem;
+  font-weight: bold;
   color: var(--gray);
 }
