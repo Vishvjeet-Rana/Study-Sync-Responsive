@@ -2,7 +2,7 @@
 Welcome to the Study Sync project! My website provides seamless learning experiences through interactive features and engaging design.
 
 # ✨ Features
---> Responsive Design: Adapts to various screen sizes.
+--> Responsive Design: This is responsive only for Tabs/iPads.
 
 --> Animated Elements: Smooth animations using CSS and JavaScript.
 
